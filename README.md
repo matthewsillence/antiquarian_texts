@@ -9,5 +9,8 @@ The Python script allows the user to read in these files and read out as .txt fi
 ## Returning lines with an assigned keyword
 The second set of scripts (weever_text_01.py and browne_text.py) read in the local file and using the .readlines() method retrieves all lines from the text containing the assigned keyword ('Norfolk') and allows the user to print each line.
 
+## Checking word frequencies
+The script word_frequency.py is designed to check the frequency of tokens within the weever_text.txt file, although can be adapted for other files. This uses the NLTK (Natural Language Toolkit) stopwords package to filter out common stopwords in English, and then generate a dataframe of the top 50 tokens and their occurrence in the text. Further removal of punctuation and tokens that result from OCR errors will be required. 
+
 ## General guidance
 Ensure that you have the Python scripts and the text files in the same directory that you have defined in your Python environment.
